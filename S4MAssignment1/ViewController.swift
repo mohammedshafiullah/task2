@@ -88,6 +88,8 @@ class ViewController: UIViewController {
          cell  = tableView.dequeueReusableCell(withIdentifier: "IdentifierSessionVCCell") as! SessionTableViewCell
         
         if(cell == nil)
+            
+            
         {
             cell = Bundle.main.loadNibNamed("IdentifierSessionVCCell", owner: self, options: nil)?[0] as! SessionTableViewCell;
         }
